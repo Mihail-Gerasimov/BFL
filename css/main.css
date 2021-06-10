@@ -1,0 +1,302 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'ALS Ekibastuz';
+    src: local('ALS Ekibastuz Black'), local('ALS-Ekibastuz-Black'),
+        url('Ekibastuz-Black.woff2') format('woff2'),
+        url('Ekibastuz-Black.woff') format('woff'),
+        url('Ekibastuz-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+html,
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #142239;
+    background-color: #fff;
+}
+
+a,
+a:hover {
+    cursor: pointer !important;
+    color: #142239;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer !important;
+}
+
+input:hover,
+button:hover {
+    cursor: pointer !important;
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1520px;
+    padding: 0 15px 0 15px;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 575px;
+        padding: 0 20px 0 20px;
+    }
+}
+
+.container-individual {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1660px;
+    padding: 0 70px 0 70px;
+}
+
+@media (max-width: 1400px) {
+    .container-individual {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-individual {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container-individual {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-individual {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container-individual {
+        max-width: 575px;
+        padding: 0;
+    }
+}
+
+/* base styles */
+.title-medium {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #0065B1;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-pink {
+    background-color: #EE3F58;
+    border-radius: 6px;
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: #0065B1;
+}
+
+.btn-pink:focus {
+    transform: scale(1.1);
+    background-color: #0065B1;
+}
+
+/* base styles */
+
+/* navigation */
+.navigation {
+    background: #0065B1;
+}
+
+.nav-btn {
+    background-color: #0065B1;
+    border: 2px solid #FFFFFF;
+    transition: 0.3s;
+    max-width: 210px;
+    width: 100%;
+}
+
+.nav-btn:hover {
+    background-color: #ffffff;
+    color: #0065B1;
+    border: 2px solid #0065B1;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.nav-btn:focus {
+    background-color: #ffffff;
+    color: #0065B1;
+    border: 2px solid #0065B1;
+}
+
+.nav-phone {
+    background-color: transparent;
+}
+
+/* navigation */
+/* header */
+.header {
+    z-index: 0;
+}
+
+.header-block {
+    padding-top: 120px;
+    padding-bottom: 105px;
+}
+
+.title-header {
+    width: auto;
+    text-align: start;
+    color: #212529;
+}
+
+.header-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    width: 100%;
+    max-width: 705px;
+}
+
+.header-info {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0065B1;
+    width: 100%;
+    max-width: 485px;
+}
+
+.btn-header {
+    max-width: 240px;
+}
+
+.woman {
+    right: 360px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.map {
+    right: 120px;
+    top: 0;
+    z-index: -2;
+}
+
+/* header */
+/* double-section */
+/* goverment */
+/* goverment */
+/* advantages */
+/* advantages */
+/* double-section */
+/* our-results */
+/* our-results */
+/* succsess-ful */
+/* succsess-ful */
+/* debt-relief */
+/* debt-relief */
+/* reviews */
+/* reviews */
+/* contact */
+/* contact */
+/* footer */
+/* footer */
