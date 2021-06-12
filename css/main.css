@@ -149,7 +149,7 @@ button:focus {
     .container-individual {
         max-width: 992px;
         padding: 0 36px 0 36px;
-
+        border-radius: 0px;
     }
 }
 
@@ -164,7 +164,7 @@ button:focus {
 @media (max-width: 575px) {
     .container-individual {
         max-width: 575px;
-        padding: 0;
+        padding: 0 20px;
     }
 }
 
@@ -324,10 +324,98 @@ button:focus {
 
 .goverment-block {
     margin-left: 130px;
+    margin-bottom: 90px;
+}
+
+.goverment-list {
+    padding-right: 10px;
+}
+
+.goverment-list__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 170%;
+    color: #212529;
+    padding-left: 35px;
+    position: relative;
+}
+
+.goverment-list__item::before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    content: '';
+    display: table;
+    background-image: url(../img/3-goverment-program/blue-element.png);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 12px;
+}
+
+.goverment-list__item:first-child {
+    font-weight: bold;
+    color: #212529;
+    padding-left: 0px;
+}
+
+.goverment-list__item:first-child::before {
+    display: none;
 }
 
 /* goverment */
 /* advantages */
+.advantages {
+    padding-bottom: 70px;
+    margin-bottom: 90px;
+}
+
+.advantages-img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.title-advantages {
+    margin-bottom: 70px;
+}
+
+.advantages-block {
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.advantages-block::before {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #D3DEE9;
+    content: '';
+    display: table;
+    bottom: 0;
+}
+
+.advantages-block__card {
+    background: #FFFFFF;
+    border: 1px solid #D3DEE9;
+    border-radius: 16px;
+}
+
+.advantages-block__card--text {
+    height: 105px;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.btn-advantages {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 /* advantages */
 /* double-section */
 /* our-results */

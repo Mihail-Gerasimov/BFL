@@ -84,12 +84,33 @@
 }
 
 @media (max-width: 1400px) {
+
     /* navigation */
     /* navigation */
     /* header */
     /* header */
     /* double-section */
     /* goverment */
+    .gaverment-img {
+        width: 500px;
+    }
+
+    .goverment-list__item::before {
+        background-size: 14px;
+        width: 14px;
+        height: 14px;
+        top: 11px;
+    }
+
+    .goverment-list__item {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+
+    .goverment-block {
+        margin-left: 50px;
+    }
+
     /* goverment */
     /* advantages */
     /* advantages */
@@ -157,6 +178,7 @@
 }
 
 @media (max-width: 1200px) {
+
     /* navigation */
     /* navigation */
     /* header */
@@ -165,6 +187,17 @@
     /* goverment */
     /* goverment */
     /* advantages */
+    .advantages-block__card--text {
+        height: 85px;
+        padding-left: 25px;
+        font-size: 20px;
+    }
+
+    .advantages-img {
+        max-width: 350px;
+        width: 100%;
+    }
+
     /* advantages */
     /* double-section */
     /* our-results */
@@ -219,6 +252,26 @@
     /* header */
     /* double-section */
     /* goverment */
+    .goverment-list__item::before {
+        background-size: 12px;
+        width: 12px;
+        height: 12px;
+        top: 9px;
+    }
+
+    .goverment-list__item {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .gaverment-img {
+        width: 415px;
+    }
+
+    .goverment-block {
+        margin-left: 0px;
+    }
+
     /* goverment */
     /* advantages */
     /* advantages */
@@ -271,8 +324,36 @@
     /* header */
     /* double-section */
     /* goverment */
+    .goverment-block {
+        flex-direction: column;
+    }
+
+    .gaverment-img {
+        width: 100%;
+        max-width: 500px;
+    }
+
     /* goverment */
     /* advantages */
+    .advantages-block {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .advantages-block__card--text {
+        height: 60px;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .advantages-img {
+        border-radius: 6px 6px 0px 0px;
+    }
+
+    .advantages-block__card {
+        border-radius: 12px;
+    }
+
     /* advantages */
     /* double-section */
     /* our-results */
@@ -398,7 +479,44 @@
     /* double-section */
     /* goverment */
     /* goverment */
+    .goverment-list__item {
+        font-size: 16px;
+        padding-left: 18px;
+    }
+
+    .goverment-list__item::before {
+        top: 7px;
+    }
+
+    .title-goverment {
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .goverment-block {
+        margin-bottom: 60px;
+    }
+
     /* advantages */
+
+
+    .advantages-block::before {
+        display: none;
+    }
+
+    .advantages-block {
+        padding-bottom: 0px;
+    }
+
+    .title-advantages {
+        margin-bottom: 30px;
+    }
+
+    .advantages {
+        padding-bottom: 40px;
+        margin-bottom: 60px;
+    }
+
     /* advantages */
     /* double-section */
     /* our-results */
