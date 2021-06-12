@@ -41,10 +41,100 @@
     /* footer */
 }
 
+@media (max-width: 1470px) {
+
+    /* navigation */
+    /* navigation */
+    /* header */
+    .header-block {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .woman {
+        right: 180px;
+        width: 340px;
+    }
+
+    .map {
+        width: 640px;
+        right: 0;
+        top: 60px;
+    }
+
+    /* header */
+    /* double-section */
+    /* goverment */
+    /* goverment */
+    /* advantages */
+    /* advantages */
+    /* double-section */
+    /* our-results */
+    /* our-results */
+    /* succsess-ful */
+    /* succsess-ful */
+    /* debt-relief */
+    /* debt-relief */
+    /* reviews */
+    /* reviews */
+    /* contact */
+    /* contact */
+    /* footer */
+    /* footer */
+}
+
 @media (max-width: 1400px) {
     /* navigation */
     /* navigation */
     /* header */
+    /* header */
+    /* double-section */
+    /* goverment */
+    /* goverment */
+    /* advantages */
+    /* advantages */
+    /* double-section */
+    /* our-results */
+    /* our-results */
+    /* succsess-ful */
+    /* succsess-ful */
+    /* debt-relief */
+    /* debt-relief */
+    /* reviews */
+    /* reviews */
+    /* contact */
+    /* contact */
+    /* footer */
+    /* footer */
+}
+
+@media (max-width: 1300px) {
+
+    /* navigation */
+    /* navigation */
+    /* header */
+    .header-block {
+        padding-top: 30px;
+    }
+
+    .title-header {
+        width: 440px;
+    }
+
+    .header-text {
+        max-width: 505px;
+    }
+
+    .woman {
+        right: 160px;
+        width: 390px;
+    }
+
+    .map {
+        width: 640px;
+        top: 75px;
+    }
+
     /* header */
     /* double-section */
     /* goverment */
@@ -91,10 +181,41 @@
     /* footer */
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
+
     /* navigation */
     /* navigation */
     /* header */
+    .title-header {
+        width: 610px;
+    }
+
+    .title-header br {
+        display: none;
+    }
+
+    .header-text {
+        max-width: 475px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .header-info {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 405px;
+    }
+
+    .woman {
+        right: 140px;
+        width: 320px;
+    }
+
+    .map {
+        width: 560px;
+        top: 103px;
+    }
+
     /* header */
     /* double-section */
     /* goverment */
@@ -116,10 +237,99 @@
     /* footer */
 }
 
+@media (max-width: 992px) {
+
+    /* navigation */
+    /* navigation */
+    /* header */
+    .title-header {
+        width: 420px;
+    }
+
+    .header-text {
+        max-width: 380px;
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .header-info {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 405px;
+    }
+
+    .woman {
+        right: 130px;
+        width: 260px;
+    }
+
+    .map {
+        width: 480px;
+        top: 68px;
+    }
+
+    /* header */
+    /* double-section */
+    /* goverment */
+    /* goverment */
+    /* advantages */
+    /* advantages */
+    /* double-section */
+    /* our-results */
+    /* our-results */
+    /* succsess-ful */
+    /* succsess-ful */
+    /* debt-relief */
+    /* debt-relief */
+    /* reviews */
+    /* reviews */
+    /* contact */
+    /* contact */
+    /* footer */
+    /* footer */
+}
+
+@media (max-width: 870px) {
+
+    /* header */
+    .woman {
+        right: 111px;
+        width: 245px;
+    }
+
+    .map {
+        width: 400px;
+        top: 100px;
+    }
+
+    .header-info {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 325px;
+    }
+
+    /* header */
+}
+
 @media (max-width: 768px) {
+
     /* navigation */
     /* navigation */
     /* header */
+    .title-header {
+        width: 355px;
+    }
+
+    .header-text {
+        max-width: 290px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .header-info {
+        max-width: 230px;
+    }
+
     /* header */
     /* double-section */
     /* goverment */
@@ -139,6 +349,22 @@
     /* contact */
     /* footer */
     /* footer */
+}
+
+@media (max-width: 670px) {
+
+    /* header */
+    .map {
+        width: 288px;
+        top: 130px;
+    }
+
+    .woman {
+        right: 49px;
+        width: 220px;
+    }
+
+    /* header */
 }
 
 @media (max-width: 575px) {
@@ -150,6 +376,24 @@
 
     /* navigation */
     /* header */
+    .title-header {
+        width: 100%;
+        max-width: inherit;
+    }
+
+    .header-text {
+        max-width: inherit;
+    }
+
+    .header-info {
+        max-width: inherit;
+    }
+
+    .map-mob {
+        margin: 0 auto;
+        max-width: 400px;
+    }
+
     /* header */
     /* double-section */
     /* goverment */
@@ -169,4 +413,26 @@
     /* contact */
     /* footer */
     /* footer */
+}
+
+@media (max-width: 425px) {
+
+    /* header */
+    .btn-header {
+        max-width: inherit;
+    }
+
+    /* header */
+
+}
+
+@media (max-width: 375px) {
+
+    /* header */
+    .map-mob {
+        margin: 0 0;
+    }
+
+    /* header */
+
 }

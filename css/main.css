@@ -127,6 +127,8 @@ button:focus {
     margin: 0 auto;
     max-width: 1660px;
     padding: 0 70px 0 70px;
+    background: #F6F9FB;
+    border-radius: 16px;
 }
 
 @media (max-width: 1400px) {
@@ -138,18 +140,24 @@ button:focus {
 @media (max-width: 1200px) {
     .container-individual {
         max-width: 1200px;
+        padding: 0 53px 0 53px;
+
     }
 }
 
 @media (max-width: 992px) {
     .container-individual {
         max-width: 992px;
+        padding: 0 36px 0 36px;
+
     }
 }
 
 @media (max-width: 768px) {
     .container-individual {
         max-width: 768px;
+        padding: 0 20px 0 20px;
+
     }
 }
 
@@ -170,6 +178,28 @@ button:focus {
     color: #0065B1;
     text-align: center;
     width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width:992px) {
+    .title-medium {
+        font-size: 38px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title-medium {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title-medium {
+        font-size: 26px;
+        line-height: 26px;
+    }
 }
 
 .btn-pink {
@@ -284,6 +314,18 @@ button:focus {
 /* header */
 /* double-section */
 /* goverment */
+.goverment {}
+
+.title-goverment {
+    margin-bottom: 70px;
+    padding-top: 70px;
+    max-width: 915px;
+}
+
+.goverment-block {
+    margin-left: 130px;
+}
+
 /* goverment */
 /* advantages */
 /* advantages */
