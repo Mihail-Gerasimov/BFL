@@ -419,8 +419,136 @@ button:focus {
 /* advantages */
 /* double-section */
 /* our-results */
+.title-results {
+    margin-bottom: 120px;
+}
+
+.results-element__info--one {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: end;
+}
+
+.results-element__info--two {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    color: #5CC4CA;
+    text-align: end;
+}
+
+
+.results-element__info--three {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: end;
+}
+
+.results-block {
+    padding-bottom: 70px;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.results-block::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    display: table;
+    background-color: #D3DEE9;
+}
+
+.blue-text {
+    color: #2E7DAF;
+}
+
+.red-text {
+    color: #C22353;
+}
+
 /* our-results */
 /* succsess-ful */
+.succsess-ful {
+    margin-bottom: 180px;
+}
+
+.title-succsess {
+    margin-bottom: 70px;
+}
+
+.title-succsess span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 36px;
+    color: #212529;
+}
+
+.succsess-citiey__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #A9BCCB;
+}
+
+.written-off {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.succsess-money {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 150%;
+    color: #0065B1;
+}
+
+.succsess-decision__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #EE3F58;
+    transition: 0.5s;
+
+}
+
+.succsess-link {
+    transition: 0.3s;
+}
+
+.succsess-link:hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.succsess-decision__text:hover {
+    color: #0065B1;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.succsess-element {
+    width: 100%;
+    max-width: 340px;
+    min-width: 270px;
+}
+
+.ful-top {
+    width: 18px;
+}
+
 /* succsess-ful */
 /* debt-relief */
 /* debt-relief */

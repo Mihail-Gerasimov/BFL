@@ -116,6 +116,25 @@
     /* advantages */
     /* double-section */
     /* our-results */
+    .results-element__info--one {
+        font-size: 21px;
+        line-height: 120%;
+    }
+
+    .results-element__info--two {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .results-element__info--three {
+        font-size: 20px;
+        line-height: 145%;
+    }
+
+    .results-img {
+        width: 100px;
+    }
+
     /* our-results */
     /* succsess-ful */
     /* succsess-ful */
@@ -203,6 +222,16 @@
     /* our-results */
     /* our-results */
     /* succsess-ful */
+    .succsess-element {
+        width: auto;
+        max-width: inherit;
+        min-width: inherit;
+    }
+
+    .succsess-block {
+        flex-wrap: wrap;
+    }
+
     /* succsess-ful */
     /* debt-relief */
     /* debt-relief */
@@ -277,8 +306,58 @@
     /* advantages */
     /* double-section */
     /* our-results */
+    .results-element__info--one {
+        font-size: 18px;
+    }
+
+    .results-element__info--two {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .results-element__info--three {
+        font-size: 18px;
+        line-height: 145%;
+    }
+
+    .results-element {
+        width: 340px;
+    }
+
+    .results-img {
+        width: 90px;
+    }
+
     /* our-results */
     /* succsess-ful */
+    .succsess-ful {
+        margin-bottom: 120px;
+    }
+
+    .ful-ok {
+        width: 36px;
+    }
+
+    .succsess-citiey__item {
+        font-size: 16px;
+    }
+
+    .written-off {
+        font-size: 18px;
+    }
+
+    .succsess-money {
+        font-size: 30px;
+    }
+
+    .succsess-decision__text {
+        font-size: 16px;
+    }
+
+    .succsess-element {
+        width: 205px;
+    }
+
     /* succsess-ful */
     /* debt-relief */
     /* debt-relief */
@@ -359,6 +438,11 @@
     /* our-results */
     /* our-results */
     /* succsess-ful */
+    .title-succsess span {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
     /* succsess-ful */
     /* debt-relief */
     /* debt-relief */
@@ -419,8 +503,47 @@
     /* advantages */
     /* double-section */
     /* our-results */
+    .title-results {
+        margin-bottom: 45px;
+    }
+
+    .results-element {
+        width: auto;
+    }
+
+    .results-element {
+        flex-direction: row !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center !important;
+    }
+
+    .results-element__info--one {
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .results-element__info--two {
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .results-element__info--three {
+        text-align: center;
+    }
+
+    .results-block {
+        padding-bottom: 40px;
+        margin-bottom: 60px;
+    }
+
     /* our-results */
     /* succsess-ful */
+    .title-succsess span {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
     /* succsess-ful */
     /* debt-relief */
     /* debt-relief */
@@ -522,6 +645,38 @@
     /* our-results */
     /* our-results */
     /* succsess-ful */
+    .succsess-ful {
+        margin-bottom: 60px;
+    }
+
+    .succsess-element {
+        width: 100%;
+        position: relative;
+    }
+
+    .succsess-element::before {
+        position: absolute;
+        content: '';
+        display: table;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #D3DEE9;
+    }
+
+    .succsess-element:last-child::before {
+        display: none;
+    }
+
+    .title-succsess span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .title-succsess {
+        margin-bottom: 40px;
+    }
+
     /* succsess-ful */
     /* debt-relief */
     /* debt-relief */
