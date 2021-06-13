@@ -139,6 +139,10 @@
     /* succsess-ful */
     /* succsess-ful */
     /* debt-relief */
+    .debt-relief-block {
+        padding: 40px 130px;
+    }
+
     /* debt-relief */
     /* reviews */
     /* reviews */
@@ -189,6 +193,12 @@
     /* debt-relief */
     /* debt-relief */
     /* reviews */
+    .img-slider-name {
+        font-size: 16px;
+    }
+
+    .img-slider-money {}
+
     /* reviews */
     /* contact */
     /* contact */
@@ -234,8 +244,28 @@
 
     /* succsess-ful */
     /* debt-relief */
+    .relief-text {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 390px;
+    }
+
+    .input-relief {
+        width: 300px;
+    }
+
+    .title-dr {
+        width: 380px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
     /* debt-relief */
     /* reviews */
+    .reviews .container {
+        padding-right: 0;
+    }
+
     /* reviews */
     /* contact */
     /* contact */
@@ -445,6 +475,20 @@
 
     /* succsess-ful */
     /* debt-relief */
+    .relief-text {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 335px;
+    }
+
+    .debt-relief-block {
+        padding: 40px 50px;
+    }
+
+    .input-relief {
+        width: 270px;
+    }
+
     /* debt-relief */
     /* reviews */
     /* reviews */
@@ -474,6 +518,15 @@
     }
 
     /* header */
+    /* debt-relief */
+    .title-dr {
+        width: 305px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    /* debt-relief */
+
 }
 
 @media (max-width: 768px) {
@@ -546,8 +599,41 @@
 
     /* succsess-ful */
     /* debt-relief */
+    .debt-relief {
+        margin-bottom: 60px;
+    }
+
+    .title-dr {
+        width: 240px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .relief-text {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 205px;
+    }
+
+    .debt-relief-block {
+        padding: 40px 20px;
+        border-radius: 6px;
+    }
+
+    .input-relief {
+        width: 240px;
+    }
+
     /* debt-relief */
     /* reviews */
+    .img-slider-money {
+        width: 150px;
+    }
+
+    .reviews {
+        padding-bottom: 60px;
+    }
+
     /* reviews */
     /* contact */
     /* contact */
