@@ -152,6 +152,21 @@
     /* footer */
 }
 
+@media (max-width: 1350px) {
+    .block-contact-form {
+        padding: 40px 50px 40px;
+    }
+
+    .block-contact-form__text {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .input-relief-width {
+        width: 230px !important;
+    }
+}
+
 @media (max-width: 1300px) {
 
     /* navigation */
@@ -394,6 +409,17 @@
     /* reviews */
     /* reviews */
     /* contact */
+    .block__sms--title {
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    .block__sms--street {
+        width: 220px;
+        font-size: 21px;
+        line-height: 21px;
+    }
+
     /* contact */
     /* footer */
     /* footer */
@@ -493,6 +519,17 @@
     /* reviews */
     /* reviews */
     /* contact */
+    .title-modal {
+        font-size: 27px;
+        line-height: 27px;
+    }
+
+    .modal-block__text {
+        font-size: 16px;
+        line-height: 150%;
+        max-width: 259px;
+    }
+
     /* contact */
     /* footer */
     /* footer */
@@ -526,6 +563,13 @@
     }
 
     /* debt-relief */
+    .block-contact-form {
+        padding: 40px 20px 40px;
+    }
+
+    .input-relief-width {
+        width: 200px !important;
+    }
 
 }
 
@@ -636,9 +680,40 @@
 
     /* reviews */
     /* contact */
+    .block__sms--street {
+        width: auto;
+    }
+
     /* contact */
     /* footer */
     /* footer */
+    /* modal */
+    .modal-block__text {
+        font-size: 14px;
+        line-height: 150%;
+        max-width: 215px;
+    }
+
+    .title-modal {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .modal-content {
+        border-radius: 16px;
+        padding: 20px 40px 0;
+    }
+
+    .modal-dialog {
+        padding: 0 10px;
+        max-width: 690px;
+    }
+
+    .modal-block__form {
+        margin-bottom: 20px;
+    }
+
+    /* modal */
 }
 
 @media (max-width: 670px) {
@@ -767,11 +842,75 @@
     /* debt-relief */
     /* debt-relief */
     /* reviews */
+    .img-slider__wrapper {
+        margin-bottom: 30px;
+    }
+
+    .swipe-bar {
+        display: block;
+    }
+
     /* reviews */
     /* contact */
+    .input-relief-width {
+        width: 100% !important;
+    }
+
+    .block__sms--street {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .block__sms--element {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .block-contact-form {
+        width: 100%;
+    }
+
+    .block__sms--title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .label-ok {
+        width: 200px;
+    }
+
+    .contact-block__sms {
+        margin-bottom: 60px;
+    }
+
+    .title-contact {
+        margin-bottom: 60px;
+    }
+
     /* contact */
     /* footer */
+    .footer-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
     /* footer */
+    .btn-close {
+        margin-bottom: 30px;
+    }
+
+    .modal-content {
+        padding: 20px 20px 0;
+    }
+
+    .modal-block__text-thank {
+        min-width: 215px !important;
+    }
+
+    .modal-thank {
+        border-radius: 16px;
+        padding: 40px 40px 60px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -782,6 +921,9 @@
     }
 
     /* header */
+    .contact-btn {
+        width: 100%;
+    }
 
 }
 

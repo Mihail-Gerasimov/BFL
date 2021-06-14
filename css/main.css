@@ -688,6 +688,15 @@ button:focus {
     border-radius: 4px;
 }
 
+.swiper-container-horizontal>.swiper-scrollbar {
+    position: inherit;
+    width: 96%;
+}
+
+.swipe-bar {
+    display: none;
+}
+
 .image-slider__image {
     width: fit-content;
 }
@@ -703,6 +712,160 @@ button:focus {
 
 /* reviews */
 /* contact */
+.title-contact {
+    margin-bottom: 90px;
+}
+
+.block__sms--element {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.block__sms--title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0065B1;
+}
+
+.block__sms--street {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #0065B1;
+}
+
+.block-contact-form {
+    padding: 60px 130px 70px;
+    background-color: #F6F9FB;
+    border-radius: 16px;
+}
+
+.block-contact-form__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.label-ok-color {
+    color: #212529;
+}
+
+.input-contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    height: 150px;
+    padding: 20px 5px 20px 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #D3DEE9;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A9BCCB;
+    text-align: start;
+    outline: none;
+    resize: none;
+}
+
+.input-relief-width {
+    width: 300px;
+}
+
+.contact-block__sms {
+    margin-bottom: 90px;
+}
+
+.contact-btn {
+    width: 280px;
+}
+
 /* contact */
 /* footer */
+.footer {
+    background-color: #0065B1;
+}
+
+.footer-text {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #B4D1E8;
+}
+
 /* footer */
+/* modal */
+.btn-close {
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #B4D1E8;
+    width: 100%;
+    text-align: end;
+    box-sizing: border-box;
+    height: auto;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.modal-content {
+    background-color: #0065B1;
+    border-radius: 30px;
+    padding: 30px 90px 0;
+}
+
+.modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+}
+
+.modal-block__form {
+    margin-bottom: 115px;
+}
+
+.title-modal {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.modal-block__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    max-width: 290px;
+}
+
+.modal-thank {
+    background-color: #0065B1;
+    border-radius: 30px;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    right: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 95px 90px 150px;
+}
+
+.modal-block__text-thank {
+    min-width: 250px !important;
+}

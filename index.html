@@ -37,17 +37,63 @@
 
 <body>
     <!-- modal-card -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Закрыть</button>
+                <div
+                    class="modal-block d-flex justify-content-lg-between justify-content-around flex-sm-row flex-column align-items-sm-start align-items-center">
+                    <div class="modal-block__text">
+                        <h2 class="title-modal mb-md-4 mb-3">Оставьте заявку</h2>
+                        <p class="modal-block__text mb-sm-0 mb-3">Для получения заявок, оставьте номер телефона и ваше
+                            имя. Наш
+                            менеджер расскажет вам все подробнее.</p>
+                    </div>
+                    <div class="modal-block__form">
+                        <form action="" class="form-block">
+                            <div class="relief-form d-flex flex-column">
+                                <input type="text" class="input-relief mb-2" placeholder="Ваше имя">
+                                <input type="tel" maxlength="12" class="input-relief mb-lg-4 mb-3"
+                                    placeholder="Ваш телефон">
+
+                                <label for=""
+                                    class="label-check position-relative d-flex align-items-center mb-lg-4 mb-3">
+                                    <input id="check-element" type="checkbox">
+                                    <div class="social-element-click me-2">
+                                        <img class="" src="./img/modal/chek.svg" alt="">
+                                    </div>
+                                    <p class="label-ok">Согласие на обработку своих<br> персональных данных</p>
+                                </label>
+
+                                <button class="btn-pink relirf-btn">Хочу списать долги</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- modal-card -->
 
     <!-- modal-thanck -->
+    <div class="modal-thank d-flex flex-column align-items-center" style="display: none !important;">
+        <img class=" mb-3" src="./img/modal/okey.png" alt="">
+        <h2 class="title-modal mb-md-4 mb-3 text-center">Заявка <br>
+            отправлена</h2>
+        <p class="modal-block__text modal-block__text-thank text-center">Мы получили вашу заявку.
+            Наш менеджер свяжится с вами.</p>
+
+    </div>
     <!-- modal-thanck -->
 
     <nav class="navigation py-2">
         <div class="container">
             <div class="nav-block d-flex justify-content-between align-items-center">
                 <img class="logo" src="./img/1-navigation/logo.png" alt="">
-                <button class="btn-pink nav-btn d-none d-sm-block">Консультация</button>
-                <button class="nav-phone d-block d-sm-none"><img src="./img/1-navigation/phone.png" alt=""></button>
+                <button class="btn-pink nav-btn d-none d-sm-block" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Консультация</button>
+                <button class="nav-phone d-block d-sm-none" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                        src="./img/1-navigation/phone.png" alt=""></button>
             </div>
         </div>
     </nav>
@@ -64,7 +110,8 @@
 
                 <p class="header-info mb-3">Пройдите тест и узнайте, доступно ли вам законное списание долгов через МФЦ?
                 </p>
-                <button class="btn-pink btn-header">Хочу узнать</button>
+                <button class="btn-pink btn-header" data-bs-toggle="modal" data-bs-target="#exampleModal">Хочу
+                    узнать</button>
             </div>
             <img class="woman position-absolute d-sm-block d-none" src="./img/2-header/businnes-woman.png" alt="">
             <img class="map position-absolute d-sm-block d-none" src="./img/2-header/map.png" alt="">
@@ -133,7 +180,8 @@
                             </p>
                         </div>
                     </div>
-                    <button class="btn-pink btn-advantages">Хочу списать долги</button>
+                    <button class="btn-pink btn-advantages" data-bs-toggle="modal" data-bs-target="#exampleModal">Хочу
+                        списать долги</button>
                 </section>
             </div>
         </div>
@@ -325,18 +373,56 @@
                         </div>
                     </div>
 
-                    <!-- <div class="swiper-scrollbar"></div> -->
+                    <div class="swiper-scrollbar swipe-bar"></div>
                 </div>
             </div>
         </section>
 
         <section class="contact">
-            <div class="contaier"></div>
+            <div class="container">
+                <div class="contact-block">
+                    <h1 class="title-medium title-contact">Контактная информация</h1>
+                    <div
+                        class="contact-block__sms d-flex justify-content-md-between justify-content-center flex-md-row flex-column align-items-md-start align-items-start">
+                        <div class="block__sms--addres mt-md-4 mt-0 mb-md-0 mb-4">
+                            <p class="block__sms--element">Адрес</p>
+                            <h4 class="block__sms--title">Москва,</h4>
+                            <p class="block__sms--street">ул. Кремлевская Набережная, д. 178</p>
+                        </div>
+                        <div class="block-contact-form">
+                            <p class="block-contact-form__text mb-4">Если остались вопросы,<br>
+                                с удовольствием ответим на них.
+                            </p>
+                            <form action="" class="form-block ">
+                                <div class="relief-form d-sm-block d-flex flex-sm-row flex-column">
+                                    <input type="text" class="input-relief input-relief-width mb-2 me-2"
+                                        placeholder="Ваше имя">
+                                    <input type="tel" maxlength="12" class="input-relief input-relief-width mb-2"
+                                        placeholder="Ваш телефон">
+                                    <!-- <input type="" class="input-contact mb-2" placeholder="Сообщение"> -->
+                                    <textarea name="" id="" cols="30" rows="10" class="input-contact mb-2"
+                                        placeholder="Сообщение"></textarea>
+                                    <label for="" class="label-check position-relative d-flex align-items-center mb-3">
+                                        <input id="check-element" type="checkbox">
+                                        <div class="social-element-click me-2">
+                                            <img class="" src="./img/modal/chek.svg" alt="">
+                                        </div>
+                                        <p class="label-ok label-ok-color">Согласие на обработку своих персональных
+                                            данных</p>
+                                    </label>
+
+                                    <button class="btn-pink contact-btn">Хочу списать долги</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container"></div>
+    <footer class="footer py-4">
+        <p class="footer-text">Политика конфидециальности</p>
     </footer>
     <!-- script -->
     <!-- bootstrap -->
