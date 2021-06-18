@@ -9,11 +9,9 @@ html {
 }
 
 @font-face {
-    font-family: 'ALS Ekibastuz';
-    src: local('ALS Ekibastuz Black'), local('ALS-Ekibastuz-Black'),
-        url('Ekibastuz-Black.woff2') format('woff2'),
-        url('Ekibastuz-Black.woff') format('woff'),
-        url('Ekibastuz-Black.ttf') format('truetype');
+    font-family: "ALS Ekibastuz";
+    src: local("ALS Ekibastuz Black"), local("ALS-Ekibastuz-Black"), url("Ekibastuz-Black.woff2") format("woff2"),
+        url("Ekibastuz-Black.woff") format("woff"), url("Ekibastuz-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
@@ -24,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #142239;
     background-color: #fff;
 }
@@ -63,7 +61,7 @@ img {
 
 input,
 button {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     border: none;
     outline: none;
     cursor: pointer !important;
@@ -127,7 +125,7 @@ button:focus {
     margin: 0 auto;
     max-width: 1660px;
     padding: 0 70px 0 70px;
-    background: #F6F9FB;
+    background: #f6f9fb;
     border-radius: 16px;
 }
 
@@ -141,7 +139,6 @@ button:focus {
     .container-individual {
         max-width: 1200px;
         padding: 0 53px 0 53px;
-
     }
 }
 
@@ -157,7 +154,6 @@ button:focus {
     .container-individual {
         max-width: 768px;
         padding: 0 20px 0 20px;
-
     }
 }
 
@@ -175,13 +171,13 @@ button:focus {
     font-size: 48px;
     line-height: 48px;
     text-align: center;
-    color: #0065B1;
+    color: #0065b1;
     text-align: center;
     width: 100%;
     margin: 0 auto;
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
     .title-medium {
         font-size: 38px;
         line-height: 38px;
@@ -203,7 +199,7 @@ button:focus {
 }
 
 .btn-pink {
-    background-color: #EE3F58;
+    background-color: #ee3f58;
     border-radius: 6px;
     padding: 20px 0;
     font-style: normal;
@@ -211,31 +207,31 @@ button:focus {
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: #ffffff;
     transition: 0.3s;
 }
 
 .btn-pink:hover {
     transition: 0.3s;
     transform: scale(1.1);
-    background-color: #0065B1;
+    background-color: #0065b1;
 }
 
 .btn-pink:focus {
     transform: scale(1.1);
-    background-color: #0065B1;
+    background-color: #0065b1;
 }
 
 /* base styles */
 
 /* navigation */
 .navigation {
-    background: #0065B1;
+    background: #0065b1;
 }
 
 .nav-btn {
-    background-color: #0065B1;
-    border: 2px solid #FFFFFF;
+    background-color: #0065b1;
+    border: 2px solid #ffffff;
     transition: 0.3s;
     max-width: 210px;
     width: 100%;
@@ -243,16 +239,16 @@ button:focus {
 
 .nav-btn:hover {
     background-color: #ffffff;
-    color: #0065B1;
-    border: 2px solid #0065B1;
+    color: #0065b1;
+    border: 2px solid #0065b1;
     transform: scale(1.1);
     transition: 0.3s;
 }
 
 .nav-btn:focus {
     background-color: #ffffff;
-    color: #0065B1;
-    border: 2px solid #0065B1;
+    color: #0065b1;
+    border: 2px solid #0065b1;
 }
 
 .nav-phone {
@@ -290,7 +286,7 @@ button:focus {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    color: #0065B1;
+    color: #0065b1;
     width: 100%;
     max-width: 485px;
 }
@@ -344,7 +340,7 @@ button:focus {
     position: absolute;
     width: 16px;
     height: 16px;
-    content: '';
+    content: "";
     display: table;
     background-image: url(../img/3-goverment-program/blue-element.png);
     background-repeat: no-repeat;
@@ -387,15 +383,15 @@ button:focus {
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: #D3DEE9;
-    content: '';
+    background-color: #d3dee9;
+    content: "";
     display: table;
     bottom: 0;
 }
 
 .advantages-block__card {
-    background: #FFFFFF;
-    border: 1px solid #D3DEE9;
+    background: #ffffff;
+    border: 1px solid #d3dee9;
     border-radius: 16px;
 }
 
@@ -435,10 +431,9 @@ button:focus {
     font-weight: 900;
     font-size: 64px;
     line-height: 64px;
-    color: #5CC4CA;
+    color: #5cc4ca;
     text-align: end;
 }
-
 
 .results-element__info--three {
     font-style: normal;
@@ -456,20 +451,20 @@ button:focus {
 
 .results-block::before {
     position: absolute;
-    content: '';
+    content: "";
     bottom: 0;
     height: 1px;
     width: 100%;
     display: table;
-    background-color: #D3DEE9;
+    background-color: #d3dee9;
 }
 
 .blue-text {
-    color: #2E7DAF;
+    color: #2e7daf;
 }
 
 .red-text {
-    color: #C22353;
+    color: #c22353;
 }
 
 /* our-results */
@@ -495,7 +490,7 @@ button:focus {
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    color: #A9BCCB;
+    color: #a9bccb;
 }
 
 .written-off {
@@ -510,7 +505,7 @@ button:focus {
     font-weight: 900;
     font-size: 36px;
     line-height: 150%;
-    color: #0065B1;
+    color: #0065b1;
 }
 
 .succsess-decision__text {
@@ -518,9 +513,8 @@ button:focus {
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    color: #EE3F58;
+    color: #ee3f58;
     transition: 0.5s;
-
 }
 
 .succsess-link {
@@ -533,7 +527,7 @@ button:focus {
 }
 
 .succsess-decision__text:hover {
-    color: #0065B1;
+    color: #0065b1;
     font-weight: 900;
     transition: 0.5s;
 }
@@ -550,18 +544,22 @@ button:focus {
 
 /* succsess-ful */
 /* debt-relief */
+.relief-spin {
+    right: 0;
+    bottom: 14px;
+}
 .debt-relief {
     margin-bottom: 120px;
 }
 
 .debt-relief-block {
-    background: #0065B1;
+    background: #0065b1;
     border-radius: 16px;
     padding: 70px 260px;
 }
 
 .title-dr {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: start;
     width: 460px;
     margin: 0;
@@ -572,10 +570,9 @@ button:focus {
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
     max-width: 465px;
 }
-
 
 .relirf-btn {
     max-width: 280px;
@@ -587,20 +584,18 @@ button:focus {
 }
 
 .input-relief {
-    background: #FFFFFF;
-    border: 1px solid #D3DEE9;
+    background: #ffffff;
+    border: 1px solid #d3dee9;
     box-sizing: border-box;
     border-radius: 6px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #A9BCCB;
+    color: #a9bccb;
     width: 365px;
     padding: 20px 0 20px 30px;
 }
-
-
 
 #check-element {
     width: 100%;
@@ -611,7 +606,7 @@ button:focus {
     position: absolute;
 }
 
-#check-element:checked+.social-element-click {
+#check-element:checked + .social-element-click {
     background-color: rgb(68, 25, 25);
 }
 
@@ -619,7 +614,7 @@ button:focus {
     height: 25px;
     width: 25px;
     cursor: pointer;
-    background: #EE3F58;
+    background: #ee3f58;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -633,7 +628,7 @@ button:focus {
     line-height: 12px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 /* debt-relief */
@@ -659,21 +654,21 @@ button:focus {
     font-weight: 900;
     font-size: 20px;
     line-height: 130%;
-    color: #0065B1;
+    color: #0065b1;
 }
 
 .img-slider {
     padding-bottom: 20px;
 }
 
-.swiper-container-horizontal>.swiper-scrollbar {
+.swiper-container-horizontal > .swiper-scrollbar {
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: 50;
     height: 4px;
     width: 98%;
-    background: #D9E2EB;
+    background: #d9e2eb;
     border-radius: 4px;
 }
 
@@ -684,11 +679,11 @@ button:focus {
 
 .swiper-pagination-progressbar-fill {
     display: block !important;
-    background-color: #EE3F58 !important;
+    background-color: #ee3f58 !important;
     border-radius: 4px;
 }
 
-.swiper-container-horizontal>.swiper-scrollbar {
+.swiper-container-horizontal > .swiper-scrollbar {
     position: inherit;
     width: 96%;
 }
@@ -712,6 +707,10 @@ button:focus {
 
 /* reviews */
 /* contact */
+.contact-spin {
+    left: 340px;
+    bottom: 13px;
+}
 .title-contact {
     margin-bottom: 90px;
 }
@@ -728,7 +727,7 @@ button:focus {
     font-weight: 900;
     font-size: 36px;
     line-height: 36px;
-    color: #0065B1;
+    color: #0065b1;
 }
 
 .block__sms--street {
@@ -736,12 +735,12 @@ button:focus {
     font-weight: normal;
     font-size: 24px;
     line-height: 24px;
-    color: #0065B1;
+    color: #0065b1;
 }
 
 .block-contact-form {
     padding: 60px 130px 70px;
-    background-color: #F6F9FB;
+    background-color: #f6f9fb;
     border-radius: 16px;
 }
 
@@ -763,14 +762,14 @@ button:focus {
     width: 100%;
     height: 150px;
     padding: 20px 5px 20px 30px;
-    background-color: #FFFFFF;
-    border: 1px solid #D3DEE9;
+    background-color: #ffffff;
+    border: 1px solid #d3dee9;
     border-radius: 6px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #A9BCCB;
+    color: #a9bccb;
     text-align: start;
     outline: none;
     resize: none;
@@ -791,7 +790,7 @@ button:focus {
 /* contact */
 /* footer */
 .footer {
-    background-color: #0065B1;
+    background-color: #0065b1;
 }
 
 .footer-text {
@@ -801,7 +800,7 @@ button:focus {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #B4D1E8;
+    color: #b4d1e8;
 }
 
 /* footer */
@@ -813,7 +812,7 @@ button:focus {
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
-    color: #B4D1E8;
+    color: #b4d1e8;
     width: 100%;
     text-align: end;
     box-sizing: border-box;
@@ -823,7 +822,7 @@ button:focus {
 }
 
 .modal-content {
-    background-color: #0065B1;
+    background-color: #0065b1;
     border-radius: 30px;
     padding: 30px 90px 0;
 }
@@ -842,7 +841,7 @@ button:focus {
     font-weight: 900;
     font-size: 36px;
     line-height: 36px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .modal-block__text {
@@ -850,12 +849,12 @@ button:focus {
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #ffffff;
     max-width: 290px;
 }
 
 .modal-thank {
-    background-color: #0065B1;
+    background-color: #0065b1;
     border-radius: 30px;
     position: fixed;
     z-index: 100;
@@ -868,4 +867,12 @@ button:focus {
 
 .modal-block__text-thank {
     min-width: 250px !important;
+}
+.spinner-border {
+    -webkit-animation: 0.5s linear infinite spinner-border;
+    animation: 0.5s linear infinite spinner-border;
+}
+.modal-spin {
+    right: 0;
+    bottom: 15px;
 }

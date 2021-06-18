@@ -1,5 +1,4 @@
 @media (max-width: 1700px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -42,7 +41,6 @@
 }
 
 @media (max-width: 1470px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -84,7 +82,6 @@
 }
 
 @media (max-width: 1400px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -168,7 +165,6 @@
 }
 
 @media (max-width: 1300px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -212,8 +208,6 @@
         font-size: 16px;
     }
 
-    .img-slider-money {}
-
     /* reviews */
     /* contact */
     /* contact */
@@ -222,7 +216,6 @@
 }
 
 @media (max-width: 1200px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -259,6 +252,14 @@
 
     /* succsess-ful */
     /* debt-relief */
+    .debt-relief-block {
+        padding: 40px 130px 65px;
+    }
+    .relief-spin {
+        right: auto;
+        bottom: -50px;
+        left: 0;
+    }
     .relief-text {
         font-size: 20px;
         line-height: 24px;
@@ -286,10 +287,14 @@
     /* contact */
     /* footer */
     /* footer */
+    .modal-spin {
+        right: auto;
+        left: 0%;
+        bottom: -50px;
+    }
 }
 
 @media (max-width: 1100px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -426,7 +431,6 @@
 }
 
 @media (max-width: 992px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -508,7 +512,7 @@
     }
 
     .debt-relief-block {
-        padding: 40px 50px;
+        padding: 40px 50px 65px;
     }
 
     .input-relief {
@@ -536,7 +540,6 @@
 }
 
 @media (max-width: 870px) {
-
     /* header */
     .woman {
         right: 111px;
@@ -570,11 +573,9 @@
     .input-relief-width {
         width: 200px !important;
     }
-
 }
 
 @media (max-width: 768px) {
-
     /* navigation */
     /* navigation */
     /* header */
@@ -660,7 +661,7 @@
     }
 
     .debt-relief-block {
-        padding: 40px 20px;
+        padding: 40px 20px 65px;
         border-radius: 6px;
     }
 
@@ -701,7 +702,7 @@
 
     .modal-content {
         border-radius: 16px;
-        padding: 20px 40px 0;
+        padding: 20px 40px 50px;
     }
 
     .modal-dialog {
@@ -717,7 +718,6 @@
 }
 
 @media (max-width: 670px) {
-
     /* header */
     .map {
         width: 288px;
@@ -733,7 +733,6 @@
 }
 
 @media (max-width: 575px) {
-
     /* navigation */
     .logo {
         width: 110px;
@@ -783,7 +782,6 @@
 
     /* advantages */
 
-
     .advantages-block::before {
         display: none;
     }
@@ -817,12 +815,12 @@
 
     .succsess-element::before {
         position: absolute;
-        content: '';
+        content: "";
         display: table;
         bottom: 0;
         width: 100%;
         height: 1px;
-        background-color: #D3DEE9;
+        background-color: #d3dee9;
     }
 
     .succsess-element:last-child::before {
@@ -868,8 +866,12 @@
 
     .block-contact-form {
         width: 100%;
+        padding: 40px 20px 65px;
     }
-
+    .contact-spin {
+        left: 0;
+        bottom: -50px;
+    }
     .block__sms--title {
         font-size: 24px;
         line-height: 27px;
@@ -900,7 +902,7 @@
     }
 
     .modal-content {
-        padding: 20px 20px 0;
+        padding: 20px 20px 50px;
     }
 
     .modal-block__text-thank {
@@ -914,7 +916,6 @@
 }
 
 @media (max-width: 425px) {
-
     /* header */
     .btn-header {
         max-width: inherit;
@@ -924,16 +925,13 @@
     .contact-btn {
         width: 100%;
     }
-
 }
 
 @media (max-width: 375px) {
-
     /* header */
     .map-mob {
         margin: 0 0;
     }
 
     /* header */
-
 }
